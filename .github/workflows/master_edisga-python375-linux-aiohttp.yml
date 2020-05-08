@@ -24,6 +24,7 @@ jobs:
       uses: azure/appservice-build@v1
       with:
         platform: python
+        python-version: '3.7'
 
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v1
